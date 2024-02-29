@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy"  : "http://localhost:4002",
+  "proxy"  : "https://wood-workshop12-server.vercel.app",
 
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
