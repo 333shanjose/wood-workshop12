@@ -15,7 +15,7 @@ const app=express()
 const { response } = require('express');
 var session=require('express-session');
 const corsOptions = {
-  origin: 'http://localhost:3000',  //Your Client, do not write '*'
+  origin: 'https://wood-workshop12-client.vercel.app',  //Your Client, do not write '*'
   credentials: true,
 };
 
