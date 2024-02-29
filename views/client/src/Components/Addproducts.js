@@ -6,7 +6,7 @@ function Addproducts() {
     <>
     <Adminnav/>
 
-    <form  action="https://wood-workshop12-server.vercel.app/admin/addproduct" method="post" enctype="multipart/form-data" style={{paddingLeft:"100px",paddingTop:"30px",marginTop:'50px',marginLeft:"300px"}}>
+    <form  action="https://wood-workshop12-server3.vercel.app/admin/addproduct" method="post" enctype="multipart/form-data" style={{paddingLeft:"100px",paddingTop:"30px",marginTop:'50px',marginLeft:"300px"}}>
     <div>
     <label>Name</label>
         <input type="text" name="names"/>
