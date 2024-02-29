@@ -8,12 +8,12 @@ function Admin() {
 
   function Delete(id){
      console.log(id)
-    axios.get('https://wood-workshop12-server.vercel.app/admin/deleteproducts/'+id).then((res)=>{
+    axios.get('https://wood-workshop12-server3.vercel.app/admin/deleteproducts/'+id).then((res)=>{
       
       })
 } 
   useEffect(()=>{
-     axios.get('https://wood-workshop12-server.vercel.app/admin/getp',{withCredentials:true}).then((res)=>{
+     axios.get('https://wood-workshop12-server3.vercel.app/admin/getp',{withCredentials:true}).then((res)=>{
         setProducts(res.data.products)
   })  
      })
