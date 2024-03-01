@@ -17,7 +17,7 @@ function Adminlogin() {
          navigate('/admin/addproducts')
        }
        else{
-         navigate('/admin/login')
+         navigate('/admin')
          alert('inavlid email or password')
        }
    })
