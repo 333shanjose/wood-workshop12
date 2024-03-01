@@ -14,7 +14,7 @@ function Adminlogin() {
    }).then((res)=>{
        console.log(res.data)
        if(res.data.response.status===true){
-         navigate('/')
+         navigate('/admin')
        }
        else{
          navigate('/admin/login')
