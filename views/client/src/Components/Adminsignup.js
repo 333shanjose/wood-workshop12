@@ -48,7 +48,7 @@ function Adminsignup() {
           </a>
         </div>
 
-        <form id="formAuthentication" class="mb-3 fv-plugins-bootstrap5 fv-plugins-framework" action='http://localhost:4002/admin/signup' method="post" novalidate="novalidate">
+        <form id="formAuthentication" class="mb-3 fv-plugins-bootstrap5 fv-plugins-framework" action='https://wood-workshop12-server3.vercel.app/admin/signup' method="post" novalidate="novalidate">
           <div class="mb-3 fv-plugins-icon-container">
             <label for="name" class="form-label">Name</label>
             <input type="text" class="form-control"  name="name" placeholder="Enter your name" autofocus=""/>
