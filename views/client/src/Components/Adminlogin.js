@@ -8,7 +8,7 @@ function Adminlogin() {
   const navigate = useNavigate();
    function Login(event){
      event.preventDefault()
-     axios.post('https://wood-workshop12-server3.vercel.app/admin/login',{
+     axios.post('https://wood-workshop12-server3.vercel.app/admin/login',{withCredentials:true}{
        email:event.target.elements.email.value,
        password:event.target.elements.password.value
    }).then((res)=>{
