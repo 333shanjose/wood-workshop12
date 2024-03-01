@@ -4,7 +4,7 @@ import Adminnav from './Adminnav'
 function Addproducts() {
   return (
     <>
-    <Adminnav/>
+    
 
     <form  action="https://wood-workshop12-server3.vercel.app/admin/addproduct" method="post" enctype="multipart/form-data" style={{paddingLeft:"100px",paddingTop:"30px",marginTop:'50px',marginLeft:"300px"}}>
     <div>
