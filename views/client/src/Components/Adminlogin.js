@@ -11,7 +11,7 @@ function Adminlogin() {
      axios.post('https://wood-workshop12-server3.vercel.app/admin/login',{
        email:event.target.elements.email.value,
        password:event.target.elements.password.value
-   },{withCredentials:true}).then((res)=>{
+   }).then((res)=>{
        console.log(res.data)
        if(res.data.response.status===true){
          navigate('/admin')
