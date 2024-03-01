@@ -8,10 +8,10 @@ function Adminlogin() {
   const navigate = useNavigate();
    function Login(event){
      event.preventDefault()
-     axios.post('https://wood-workshop12-server3.vercel.app/admin/login',{withCredentials:true}{
+     axios.post('https://wood-workshop12-server3.vercel.app/admin/login',{
        email:event.target.elements.email.value,
        password:event.target.elements.password.value
-   }).then((res)=>{
+   },{withCredentials:true}).then((res)=>{
        console.log(res.data)
        if(res.data.response.status===true){
          navigate('/admin/addproducts')
