@@ -10,12 +10,14 @@ function Adminnav() {
 
    useEffect(()=>{
          
-          axios.get('https://wood-workshop12-server3.vercel.app/admin/login').then((res)=>{
+          axios.get('https://wood-workshop12-server3.vercel.app/admin/login',{withCredentials:true}).then((res)=>{
              if(res.data.adminss){
               setAdmin(res.data.adminss)
+		   console.log('yes')  
 
              }else{
                navigate('/admin/login')
+		    console.log('ff') 
              }
 
           }) 
